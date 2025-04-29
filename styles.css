@@ -94,20 +94,25 @@ img{
     margin-bottom: 50px;
     width: 300px;
 }
-button{
+.btn{
     background-color: #382ae1;
     text-decoration: none;
     width: 400px;
     height: 50px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-button a{
+.btn a{
     text-decoration: none;
     color: white;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 0.9rem;
     margin-bottom: 0px;
+    
+    
 }
 .decision{
     margin-top: 25px;
